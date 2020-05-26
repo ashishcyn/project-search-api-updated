@@ -1,2 +1,2 @@
 # project-search-api-updated
-Project-Search-Api-updated
+![Docker Image CI](https://github.com/ashishcyn/project-search-api-updated/workflows/Docker%20Image%20CI/badge.svg)
