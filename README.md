@@ -77,6 +77,7 @@ Content negotiation is also implemened so we can pass headers as application/xml
 Test case results will be availbe in surefire-reports under target directory
 
 ### Continuous Integration with Git
-Workflow build file is configured for Continuous Integration with GitHub. It runs the tests and build a docker image and publish to dockerub for every pull request or commit to master branch.  
+Workflow build script is configured for Continuous Integration with GitHub. It runs the tests and build a docker image and publish to dockerub for every pull request or commit to master branch.  
 
+Workflow release is also configured. So whenever we release a new version,script runs the tests and build a docker image with the given version and publish to dockerub and update the latest version.  
 
