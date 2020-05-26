@@ -51,6 +51,9 @@ jobs:
           uses: stCarolas/setup-maven@v3
           with:
            maven-version: 3.5.4   
+        - uses: actions/checkout@v1
+        - name: Maven build
+          run: mvn clean install
         - name: SonarCloud Scan
           run: mvn -B clean verify -Psonar -Dsonar.login=${{ secrets.SONAR_TOKEN }}
           env:
