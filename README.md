@@ -1,5 +1,5 @@
 # Project-search-api
-![Docker Image CI](https://github.com/ashishcyn/project-search-api-updated/workflows/Docker%20Image%20CI/badge.svg)
+![Docker Image CI](https://github.com/ashishcyn/project-search-api-updated/workflows/Docker%20Image%20CI/badge.svg) ![Release Build](https://github.com/ashishcyn/project-search-api-updated/workflows/Release%20Build/badge.svg)
 
 
 ## Table of contents
