@@ -16,7 +16,6 @@ import javax.validation.constraints.NotNull;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -30,7 +29,7 @@ public class ProjectsearchServiceImpl implements ProjectsearchService {
 	private static final Logger LOGGER = LoggerFactory.getLogger(ProjectsearchServiceImpl.class);
 	
 	
-	RestTemplate restTemplate = new RestTemplate();;
+	RestTemplate restTemplate = new RestTemplate();
 
 	
 

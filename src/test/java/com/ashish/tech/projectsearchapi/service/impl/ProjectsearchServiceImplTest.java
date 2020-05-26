@@ -68,7 +68,7 @@ public class ProjectsearchServiceImplTest {
 				.thenReturn(repos);
 
 		List<ProjectDTO> results = projectsearchService.getAllProjects("ashishcyn");
-		Assertions.assertTrue(results.size() == 3, "Method returend value successfully");
+		Assertions.assertEquals(3,results.size(), "Method returend value successfully");
 	}
 
 	@Test
@@ -93,7 +93,7 @@ public class ProjectsearchServiceImplTest {
 				List.class)).thenReturn(contributorsMock);
 
 		List<UserDTO> results = projectsearchService.getAllContributors("ashishcyn", "project-search-api");
-		Assertions.assertTrue(results.size() == 2, "Method returend value successfully");
+		Assertions.assertEquals(2, results.size(), "Method returend value successfully");
 
 	}
 

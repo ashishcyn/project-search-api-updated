@@ -76,7 +76,7 @@
 				<sonar.sources>.</sonar.sources>
 				<sonar.inclusions>src/main/java/**,src/main/resources/**</sonar.inclusions>
 				<sonar.exclusions>${code.coverage.exclusions}</sonar.exclusions>
-				<sonar.projectKey>ashishcyn_project-search-api-v2</sonar.projectKey>
+				<sonar.projectKey>ashishcyn_project-search-api-updated</sonar.projectKey>
 				<sonar.organization>ashishcyn</sonar.organization>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 			</properties>
